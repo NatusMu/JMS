@@ -9,11 +9,36 @@
 /* Begin PBXBuildFile section */
 		FD4F1B311DC056AB0032FECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F1B301DC056AB0032FECB /* main.m */; };
 		FD4F1B341DC056AB0032FECB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F1B331DC056AB0032FECB /* AppDelegate.m */; };
-		FD4F1B371DC056AB0032FECB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F1B361DC056AB0032FECB /* ViewController.m */; };
 		FD4F1B3A1DC056AB0032FECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4F1B381DC056AB0032FECB /* Main.storyboard */; };
 		FD4F1B3D1DC056AB0032FECB /* JMS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD4F1B3B1DC056AB0032FECB /* JMS.xcdatamodeld */; };
 		FD4F1B3F1DC056AB0032FECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4F1B3E1DC056AB0032FECB /* Assets.xcassets */; };
 		FD4F1B421DC056AB0032FECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4F1B401DC056AB0032FECB /* LaunchScreen.storyboard */; };
+		FD4F1B641DC056E60032FECB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F1B4C1DC056E60032FECB /* DetailViewController.m */; };
+		FD4F1B651DC056E60032FECB /* ExtraTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F1B4E1DC056E60032FECB /* ExtraTableViewCell.m */; };
+		FD4F1B661DC056E60032FECB /* ExtraTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4F1B4F1DC056E60032FECB /* ExtraTableViewCell.xib */; };
+		FD4F1B671DC056E60032FECB /* ExtraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F1B511DC056E60032FECB /* ExtraViewController.m */; };
+		FD4F1B681DC056E60032FECB /* JMSMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F1B531DC056E60032FECB /* JMSMessageViewController.m */; };
+		FD4F1B691DC056E60032FECB /* JMSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F1B551DC056E60032FECB /* JMSTableViewCell.m */; };
+		FD4F1B6A1DC056E60032FECB /* JMSTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4F1B561DC056E60032FECB /* JMSTableViewCell.xib */; };
+		FD4F1B6B1DC056E60032FECB /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F1B591DC056E60032FECB /* NetworkController.m */; };
+		FD4F1B6C1DC056E60032FECB /* NetworkJudgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F1B5B1DC056E60032FECB /* NetworkJudgeController.m */; };
+		FD4F1B6D1DC056E60032FECB /* GuidePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F1B5E1DC056E60032FECB /* GuidePageViewController.m */; };
+		FD4F1B6E1DC056E60032FECB /* JMSScanNetController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F1B611DC056E60032FECB /* JMSScanNetController.m */; };
+		FD4F1B6F1DC056E60032FECB /* JMSScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F1B631DC056E60032FECB /* JMSScanViewController.m */; };
+		FD4F1B7D1DC057430032FECB /* Flash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4F1B711DC057430032FECB /* Flash.jpg */; };
+		FD4F1B7E1DC057430032FECB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4F1B721DC057430032FECB /* icon.png */; };
+		FD4F1B7F1DC057430032FECB /* icon_yygh.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4F1B731DC057430032FECB /* icon_yygh.png */; };
+		FD4F1B801DC057430032FECB /* launcher1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4F1B741DC057430032FECB /* launcher1.jpg */; };
+		FD4F1B811DC057430032FECB /* launcher2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4F1B751DC057430032FECB /* launcher2.jpg */; };
+		FD4F1B821DC057430032FECB /* launcher3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4F1B761DC057430032FECB /* launcher3.jpg */; };
+		FD4F1B831DC057430032FECB /* leftarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4F1B771DC057430032FECB /* leftarrow.png */; };
+		FD4F1B841DC057430032FECB /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4F1B781DC057430032FECB /* line@2x.png */; };
+		FD4F1B851DC057430032FECB /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4F1B791DC057430032FECB /* message.png */; };
+		FD4F1B861DC057430032FECB /* pick_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4F1B7A1DC057430032FECB /* pick_bg@2x.png */; };
+		FD4F1B871DC057430032FECB /* rightarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4F1B7B1DC057430032FECB /* rightarrow.png */; };
+		FD4F1B881DC057430032FECB /* scan.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4F1B7C1DC057430032FECB /* scan.png */; };
+		FD4F1B8D1DC0579E0032FECB /* JMSGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F1B8A1DC0579E0032FECB /* JMSGuideViewController.m */; };
+		FD4F1B8E1DC0579E0032FECB /* JMSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F1B8C1DC0579E0032FECB /* JMSViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +46,49 @@
 		FD4F1B301DC056AB0032FECB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD4F1B321DC056AB0032FECB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD4F1B331DC056AB0032FECB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FD4F1B351DC056AB0032FECB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FD4F1B361DC056AB0032FECB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FD4F1B391DC056AB0032FECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD4F1B3C1DC056AB0032FECB /* JMS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JMS.xcdatamodel; sourceTree = "<group>"; };
 		FD4F1B3E1DC056AB0032FECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD4F1B411DC056AB0032FECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD4F1B431DC056AB0032FECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4F1B4B1DC056E60032FECB /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FD4F1B4C1DC056E60032FECB /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FD4F1B4D1DC056E60032FECB /* ExtraTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtraTableViewCell.h; sourceTree = "<group>"; };
+		FD4F1B4E1DC056E60032FECB /* ExtraTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtraTableViewCell.m; sourceTree = "<group>"; };
+		FD4F1B4F1DC056E60032FECB /* ExtraTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExtraTableViewCell.xib; sourceTree = "<group>"; };
+		FD4F1B501DC056E60032FECB /* ExtraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtraViewController.h; sourceTree = "<group>"; };
+		FD4F1B511DC056E60032FECB /* ExtraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtraViewController.m; sourceTree = "<group>"; };
+		FD4F1B521DC056E60032FECB /* JMSMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSMessageViewController.h; sourceTree = "<group>"; };
+		FD4F1B531DC056E60032FECB /* JMSMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSMessageViewController.m; sourceTree = "<group>"; };
+		FD4F1B541DC056E60032FECB /* JMSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSTableViewCell.h; sourceTree = "<group>"; };
+		FD4F1B551DC056E60032FECB /* JMSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSTableViewCell.m; sourceTree = "<group>"; };
+		FD4F1B561DC056E60032FECB /* JMSTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMSTableViewCell.xib; sourceTree = "<group>"; };
+		FD4F1B581DC056E60032FECB /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
+		FD4F1B591DC056E60032FECB /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
+		FD4F1B5A1DC056E60032FECB /* NetworkJudgeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkJudgeController.h; sourceTree = "<group>"; };
+		FD4F1B5B1DC056E60032FECB /* NetworkJudgeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkJudgeController.m; sourceTree = "<group>"; };
+		FD4F1B5D1DC056E60032FECB /* GuidePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePageViewController.h; sourceTree = "<group>"; };
+		FD4F1B5E1DC056E60032FECB /* GuidePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidePageViewController.m; sourceTree = "<group>"; };
+		FD4F1B601DC056E60032FECB /* JMSScanNetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSScanNetController.h; sourceTree = "<group>"; };
+		FD4F1B611DC056E60032FECB /* JMSScanNetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSScanNetController.m; sourceTree = "<group>"; };
+		FD4F1B621DC056E60032FECB /* JMSScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSScanViewController.h; sourceTree = "<group>"; };
+		FD4F1B631DC056E60032FECB /* JMSScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSScanViewController.m; sourceTree = "<group>"; };
+		FD4F1B711DC057430032FECB /* Flash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Flash.jpg; sourceTree = "<group>"; };
+		FD4F1B721DC057430032FECB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FD4F1B731DC057430032FECB /* icon_yygh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_yygh.png; sourceTree = "<group>"; };
+		FD4F1B741DC057430032FECB /* launcher1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launcher1.jpg; sourceTree = "<group>"; };
+		FD4F1B751DC057430032FECB /* launcher2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launcher2.jpg; sourceTree = "<group>"; };
+		FD4F1B761DC057430032FECB /* launcher3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launcher3.jpg; sourceTree = "<group>"; };
+		FD4F1B771DC057430032FECB /* leftarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftarrow.png; sourceTree = "<group>"; };
+		FD4F1B781DC057430032FECB /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
+		FD4F1B791DC057430032FECB /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
+		FD4F1B7A1DC057430032FECB /* pick_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pick_bg@2x.png"; sourceTree = "<group>"; };
+		FD4F1B7B1DC057430032FECB /* rightarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightarrow.png; sourceTree = "<group>"; };
+		FD4F1B7C1DC057430032FECB /* scan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scan.png; sourceTree = "<group>"; };
+		FD4F1B891DC0579E0032FECB /* JMSGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSGuideViewController.h; sourceTree = "<group>"; };
+		FD4F1B8A1DC0579E0032FECB /* JMSGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSGuideViewController.m; sourceTree = "<group>"; };
+		FD4F1B8B1DC0579E0032FECB /* JMSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSViewController.h; sourceTree = "<group>"; };
+		FD4F1B8C1DC0579E0032FECB /* JMSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +123,9 @@
 			children = (
 				FD4F1B321DC056AB0032FECB /* AppDelegate.h */,
 				FD4F1B331DC056AB0032FECB /* AppDelegate.m */,
-				FD4F1B351DC056AB0032FECB /* ViewController.h */,
-				FD4F1B361DC056AB0032FECB /* ViewController.m */,
 				FD4F1B381DC056AB0032FECB /* Main.storyboard */,
+				FD4F1B491DC056C80032FECB /* Controller */,
+				FD4F1B701DC057430032FECB /* Image */,
 				FD4F1B3E1DC056AB0032FECB /* Assets.xcassets */,
 				FD4F1B401DC056AB0032FECB /* LaunchScreen.storyboard */,
 				FD4F1B431DC056AB0032FECB /* Info.plist */,
@@ -80,6 +141,90 @@
 				FD4F1B301DC056AB0032FECB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD4F1B491DC056C80032FECB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F1B891DC0579E0032FECB /* JMSGuideViewController.h */,
+				FD4F1B8A1DC0579E0032FECB /* JMSGuideViewController.m */,
+				FD4F1B8B1DC0579E0032FECB /* JMSViewController.h */,
+				FD4F1B8C1DC0579E0032FECB /* JMSViewController.m */,
+				FD4F1B4A1DC056E60032FECB /* Message */,
+				FD4F1B571DC056E60032FECB /* Network */,
+				FD4F1B5C1DC056E60032FECB /* Newfeature */,
+				FD4F1B5F1DC056E60032FECB /* Scan */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FD4F1B4A1DC056E60032FECB /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F1B521DC056E60032FECB /* JMSMessageViewController.h */,
+				FD4F1B531DC056E60032FECB /* JMSMessageViewController.m */,
+				FD4F1B4B1DC056E60032FECB /* DetailViewController.h */,
+				FD4F1B4C1DC056E60032FECB /* DetailViewController.m */,
+				FD4F1B501DC056E60032FECB /* ExtraViewController.h */,
+				FD4F1B511DC056E60032FECB /* ExtraViewController.m */,
+				FD4F1B4D1DC056E60032FECB /* ExtraTableViewCell.h */,
+				FD4F1B4E1DC056E60032FECB /* ExtraTableViewCell.m */,
+				FD4F1B4F1DC056E60032FECB /* ExtraTableViewCell.xib */,
+				FD4F1B541DC056E60032FECB /* JMSTableViewCell.h */,
+				FD4F1B551DC056E60032FECB /* JMSTableViewCell.m */,
+				FD4F1B561DC056E60032FECB /* JMSTableViewCell.xib */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		FD4F1B571DC056E60032FECB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F1B581DC056E60032FECB /* NetworkController.h */,
+				FD4F1B591DC056E60032FECB /* NetworkController.m */,
+				FD4F1B5A1DC056E60032FECB /* NetworkJudgeController.h */,
+				FD4F1B5B1DC056E60032FECB /* NetworkJudgeController.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FD4F1B5C1DC056E60032FECB /* Newfeature */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F1B5D1DC056E60032FECB /* GuidePageViewController.h */,
+				FD4F1B5E1DC056E60032FECB /* GuidePageViewController.m */,
+			);
+			path = Newfeature;
+			sourceTree = "<group>";
+		};
+		FD4F1B5F1DC056E60032FECB /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F1B601DC056E60032FECB /* JMSScanNetController.h */,
+				FD4F1B611DC056E60032FECB /* JMSScanNetController.m */,
+				FD4F1B621DC056E60032FECB /* JMSScanViewController.h */,
+				FD4F1B631DC056E60032FECB /* JMSScanViewController.m */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		FD4F1B701DC057430032FECB /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F1B711DC057430032FECB /* Flash.jpg */,
+				FD4F1B721DC057430032FECB /* icon.png */,
+				FD4F1B731DC057430032FECB /* icon_yygh.png */,
+				FD4F1B741DC057430032FECB /* launcher1.jpg */,
+				FD4F1B751DC057430032FECB /* launcher2.jpg */,
+				FD4F1B761DC057430032FECB /* launcher3.jpg */,
+				FD4F1B771DC057430032FECB /* leftarrow.png */,
+				FD4F1B781DC057430032FECB /* line@2x.png */,
+				FD4F1B791DC057430032FECB /* message.png */,
+				FD4F1B7A1DC057430032FECB /* pick_bg@2x.png */,
+				FD4F1B7B1DC057430032FECB /* rightarrow.png */,
+				FD4F1B7C1DC057430032FECB /* scan.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +286,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD4F1B421DC056AB0032FECB /* LaunchScreen.storyboard in Resources */,
+				FD4F1B851DC057430032FECB /* message.png in Resources */,
+				FD4F1B7F1DC057430032FECB /* icon_yygh.png in Resources */,
+				FD4F1B821DC057430032FECB /* launcher3.jpg in Resources */,
+				FD4F1B861DC057430032FECB /* pick_bg@2x.png in Resources */,
+				FD4F1B801DC057430032FECB /* launcher1.jpg in Resources */,
+				FD4F1B7E1DC057430032FECB /* icon.png in Resources */,
+				FD4F1B841DC057430032FECB /* line@2x.png in Resources */,
+				FD4F1B881DC057430032FECB /* scan.png in Resources */,
+				FD4F1B811DC057430032FECB /* launcher2.jpg in Resources */,
+				FD4F1B6A1DC056E60032FECB /* JMSTableViewCell.xib in Resources */,
+				FD4F1B871DC057430032FECB /* rightarrow.png in Resources */,
 				FD4F1B3F1DC056AB0032FECB /* Assets.xcassets in Resources */,
+				FD4F1B661DC056E60032FECB /* ExtraTableViewCell.xib in Resources */,
+				FD4F1B7D1DC057430032FECB /* Flash.jpg in Resources */,
+				FD4F1B831DC057430032FECB /* leftarrow.png in Resources */,
 				FD4F1B3A1DC056AB0032FECB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,10 +312,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD4F1B371DC056AB0032FECB /* ViewController.m in Sources */,
+				FD4F1B681DC056E60032FECB /* JMSMessageViewController.m in Sources */,
 				FD4F1B341DC056AB0032FECB /* AppDelegate.m in Sources */,
+				FD4F1B691DC056E60032FECB /* JMSTableViewCell.m in Sources */,
+				FD4F1B8E1DC0579E0032FECB /* JMSViewController.m in Sources */,
 				FD4F1B3D1DC056AB0032FECB /* JMS.xcdatamodeld in Sources */,
 				FD4F1B311DC056AB0032FECB /* main.m in Sources */,
+				FD4F1B641DC056E60032FECB /* DetailViewController.m in Sources */,
+				FD4F1B6D1DC056E60032FECB /* GuidePageViewController.m in Sources */,
+				FD4F1B6E1DC056E60032FECB /* JMSScanNetController.m in Sources */,
+				FD4F1B8D1DC0579E0032FECB /* JMSGuideViewController.m in Sources */,
+				FD4F1B6C1DC056E60032FECB /* NetworkJudgeController.m in Sources */,
+				FD4F1B651DC056E60032FECB /* ExtraTableViewCell.m in Sources */,
+				FD4F1B6B1DC056E60032FECB /* NetworkController.m in Sources */,
+				FD4F1B671DC056E60032FECB /* ExtraViewController.m in Sources */,
+				FD4F1B6F1DC056E60032FECB /* JMSScanViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

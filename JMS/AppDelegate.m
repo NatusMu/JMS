@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "GuidePageViewController.h"
+#import "NetworkController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,10 +17,45 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window = window;
+    // 如果要关注网络及授权验证事件，请设定     generalDelegate参数
+    
+    [NSThread sleepForTimeInterval:1.0];
+    
+    //判断是否需要显示：（内部已经考虑版本及本地版本缓存）
+    BOOL canShow = [GuidePageViewController canShowNewFeature];
+    //测试代码，正式版本应该删除
+    canShow = NO;
+    
+    if(canShow){ // 初始化新特性界面
+        //        window.rootViewController = [GuidePageViewController newFeatureVCWithImageNames:@[@"launch1",@"launch2",@"launch3"] enterBlock:^{
+        //
+        //            NSLog(@"进入主页面");
+        //            [self enter];
+        //
+        //        } configuration:^(UIButton *enterButton) { // 配置进入按钮
+        //            [enterButton setBackgroundImage:[UIImage imageNamed:@"btn_nor"] forState:UIControlStateNormal];
+        //            [enterButton setBackgroundImage:[UIImage imageNamed:@"btn_pressed"] forState:UIControlStateHighlighted];
+        //            enterButton.bounds = CGRectMake(0, 0, 120, 40);
+        //            enterButton.center = CGPointMake(KScreenW * 0.5, KScreenH* 0.85);
+        //        }];
+        
+    }else{
+        
+        [self enter];
+    }
+    
     return YES;
 }
-
+- (void)enter
+{
+    NetworkController *vc = [[NetworkController alloc] init];
+    //    UINavigationController *nvc=[[UINavigationController alloc]initWithRootViewController:vc];
+    _window.rootViewController = vc;
+    _window.backgroundColor = [UIColor whiteColor];
+    [_window makeKeyAndVisible];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

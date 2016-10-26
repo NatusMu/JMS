@@ -1,0 +1,15 @@
+//
+//  ExtraViewController.h
+//  JSM
+//
+//  Created by 黄沐 on 2016/10/22.
+//  Copyright © 2016年 Jiumeisheng. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ExtraViewController : UITableViewController
+
+@property(nonatomic,strong)NSString *titleLabel;
+@property(nonatomic,strong)NSString *detailLabel;
+@end
